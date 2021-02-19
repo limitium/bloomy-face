@@ -1,0 +1,18 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Bloomy space"
+theme = "hallo"
+
+[params]
+    greeting = "Bloomy space"
+    [[params.links]]
+        iconset = "fab"
+        icon = "telegram"
+        title = "Telegram chat"
+        url = "https://t.me/bloomy_space_chat"
+
+    [[params.links]]
+        iconset = "fab"
+        icon = "discord"
+        title = "Discord chat"
+        url = "https://discord.gg/8EBhmfy8XN"
