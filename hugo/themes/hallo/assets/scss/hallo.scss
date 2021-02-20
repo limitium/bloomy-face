@@ -1,7 +1,7 @@
 // Colours
-$color-background: {{ .Site.Params.colors.background | default "#6fcdbd" }};
-$color-foreground: {{ .Site.Params.colors.foreground | default "#fff" }};
-$color-hover: {{ .Site.Params.colors.hover | default "#333" }};
+$color-background: {{ .Site.Params.colors.background | default "rgb(79, 135, 62)" }};
+$color-foreground: {{ .Site.Params.colors.foreground | default "rgb(216, 250, 206)" }};
+$color-hover: {{ .Site.Params.colors.hover | default "rgb(79, 135, 62)" }};
 
 @import 'hallo/variables';
 @import 'hallo/base';
