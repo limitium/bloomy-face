@@ -1,6 +1,6 @@
 html,
 body {
-  color: #fcfdf3;
+  color: #fff;
   margin: 1rem;
   padding: 0; }
 
@@ -10,15 +10,21 @@ html {
   overflow-y: auto; }
 
 body {
-  background-color: rgb(79, 135, 62); }
+  background-color: #6fcdbd;
+  background-image: url("/images/Green-Grass-wallpaper-hd-download.jpg");
+  /* The image used */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */ }
 
 a {
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
-  color: #fcfdf3; }
+  color: #fff; }
   a:hover {
-    color: #6b7515; }
+    color: #333; }
 
 h1 {
   font-size: 5rem; }
@@ -40,7 +46,7 @@ h3 {
 img.portrait {
   box-sizing: border-box;
   border-radius: 50%;
-  border: 10px solid #fcfdf3;
+  border: 10px solid #fff;
   margin: 2em 3em;
   width: 100%;
   height: auto;
